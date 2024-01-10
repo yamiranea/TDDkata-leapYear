@@ -1,0 +1,22 @@
+{
+  "name": "kata-leap-year",
+  "version": "1.0.0",
+  "description": "#FemCoders bootcamp individual practice.",
+  "main": "LeapYear.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yamiranea/kata-leapYear.git"
+  },
+  "author": "Yamila Ranea",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yamiranea/kata-leapYear/issues"
+  },
+  "homepage": "https://github.com/yamiranea/kata-leapYear#readme",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
