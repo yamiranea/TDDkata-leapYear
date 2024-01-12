@@ -1,10 +1,8 @@
 class LeapYear {
-  validate_leap_year(params) {
-    if (params % 4 === 0) {
+  validate_leap_year(year) {
+    if (year % 4 === 0 && year % 400 === 0) {
       return true;
-    } else if (params % 400 === 0) {
-      return true;
-    } else if (params % 6 === 0) {
+    } else if (year % 6 === 0 && year % 100 === 0) {
       return false;
     }
   }
